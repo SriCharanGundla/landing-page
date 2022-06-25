@@ -129,7 +129,6 @@ font-size: 18px;
     width: 150px;
     height: 150px;
     border-radius: 14px;
-    object-fit: contain;
 }
 
 .info-header .container p {
