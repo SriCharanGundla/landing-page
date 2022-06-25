@@ -98,6 +98,8 @@ font-size: 18px;
 
 .info-header .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
@@ -127,6 +129,7 @@ font-size: 18px;
     width: 150px;
     height: 150px;
     border-radius: 14px;
+    object-fit: contain;
 }
 
 .info-header .container p {
