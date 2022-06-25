@@ -123,6 +123,12 @@ font-size: 18px;
     border-style: solid;
 }
 
+.info-header .container .box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 14px;
+}
+
 .info-header .container p {
     color: gray;
     text-align: center;
