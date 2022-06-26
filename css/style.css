@@ -12,7 +12,7 @@ body {
 
 #nav .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -241,6 +241,11 @@ font-size: 18px;
         padding: 0px 30px;
     }
 
+    .hero img {
+        width: 400px;
+        height: auto;
+    }
+
     .info-header .container{
         display: flex;
         flex-wrap: wrap;
@@ -258,10 +263,10 @@ font-size: 18px;
         align-items: center;
         background-color: #3882F6;
         padding: 20px 100px;
-        margin: 75px 200px;
+        margin: 75px 150px;
         border-radius: 6px;
         flex-shrink: 1;
-        gap: 50px;  
+        gap: 25px;  
     }
 
     .action .text{
