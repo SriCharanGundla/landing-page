@@ -257,6 +257,12 @@ font-size: 18px;
         padding: 30px;
     }
 
+    .action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .action .container{
         display: flex;
         justify-content: center;
@@ -273,12 +279,6 @@ font-size: 18px;
         display: flex;
         flex-direction: column;
         color: #F9FAF8;
-        flex-shrink: 0.5;
-        padding-left: 10px;
-    }
-
-    .action .container {
-        display: flex;
-        padding-right: 110px;
+        flex-shrink: 0.7;
     }
 }
