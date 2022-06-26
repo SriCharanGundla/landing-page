@@ -254,14 +254,14 @@ font-size: 18px;
 
     .action .container{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         background-color: #3882F6;
         padding: 20px 100px;
         margin: 75px 200px;
         border-radius: 6px;
         flex-shrink: 1;
-        gap: 80px;  
+        gap: 50px;  
     }
 
     .action .text{
@@ -269,6 +269,11 @@ font-size: 18px;
         flex-direction: column;
         color: #F9FAF8;
         flex-shrink: 0.5;
+        padding-left: 10px;
     }
 
+    .action .container {
+        display: flex;
+        padding-right: 110px;
+    }
 }
